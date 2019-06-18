@@ -1,0 +1,191 @@
+
+font-family: 'Work Sans', sans-serif;
+font-family: 'Heebo', sans-serif;
+
+nav{
+
+  background-color:#DBD7D7
+}
+
+
+
+h1{
+  color: rgb(0, 0, 0);
+font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+}
+
+h2{
+  color: rgb(35,66,246);
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.5em;
+  margin-left: 100px;
+  margin-right: inherit: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+body{
+  background-color: #f0f0f0
+font-family: 'Heebo', sans-serif;
+  margin: 80px;
+}
+
+.Cunningham {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  width: 75%
+}
+
+.intro_Cunningam {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  width: 70%
+}
+
+.Paragraph-depth1 {
+  width:50%;
+  background-color:
+}
+
+.Paragraph-depth2{
+  width: 55%;
+  }
+
+.Graham{
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  width: 90%
+}
+
+.intro_Graham {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  width: 70%
+}
+
+.Video Container {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  font-weight: bolder;
+  justify-content: space-evenly;
+}
+
+nav{
+  color: rgb(0), 0, 0;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+
+}
+
+div.hero{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+div.Cunningam{
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+div.Graham{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column
+}
+img#jump{
+  transition: transform 400ms ease;
+
+}
+img#jump:hover {
+  transform: scale(1.5);
+}
+ img{
+  width:700;
+ }
+
+
+}
+img#pose{
+  transition: transform 600ms ease;
+}
+img#pose:hover {
+  transform: scale(1.5);
+}
+ img{
+   width:700;
+ }
+
+
+ #Cunningham_Container {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+ }
+
+ figure {
+   position: relative;
+   margin: 0px 20px;
+   width: 300px;
+   height: 300px;
+   border: 6px rgba(68, 153, 112, 1) solid;
+   overflow: hidden;
+   text-align: center;
+ }
+
+ figure img {
+   display: block;
+ }
+
+ figure figcaption {
+   position: absolute;
+   padding-top: 100px;
+   background-color: rgba(68, 153, 112, .7);
+   display: block;
+   top: 100%;
+   width: 100%;
+   height: 100%;
+   z-index: 20;
+ }
+
+ #myVideo {
+  position: absolute;
+   padding-top:0px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

@@ -1,0 +1,68 @@
+h2 {
+  text-align:center;
+}
+#catapult-cookie-bar {
+  box-sizing: border-box;
+  max-height: 0;
+  opacity: 0;
+  z-index: 99999;
+  overflow: hidden;
+  color: #c3c1e8;
+  position: fixed;
+  right: 20px;
+  bottom: 6%;
+  width: 300px;
+  background-color: #363699;
+}
+#catapult-cookie-bar a {
+  color: #ffffff;
+}
+#catapult-cookie-bar .x_close span {
+  background-color: #ffffff;
+}
+button#catapultCookie {
+  background:#363699;
+  color: #ffffff;
+  border: 0; padding: 6px 9px; border-radius: 3px;
+}
+#catapult-cookie-bar h3 {
+  color: #c3c1e8;
+}
+.has-cookie-bar #catapult-cookie-bar {
+  opacity: 1;
+  max-height: 999px;
+  min-height: 30px;
+}</style><script type="text/javascript">
+(function(url){
+if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+var addEvent = function(evt, handler) {
+if (window.addEventListener) {
+document.addEventListener(evt, handler, false);
+} else if (window.attachEvent) {
+document.attachEvent('on' + evt, handler);
+}
+};
+var removeEvent = function(evt, handler) {
+if (window.removeEventListener) {
+document.removeEventListener(evt, handler, false);
+} else if (window.detachEvent) {
+document.detachEvent('on' + evt, handler);
+}
+};
+var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+var logHuman = function() {
+var wfscr = document.createElement('script');
+wfscr.type = 'text/javascript';
+wfscr.async = true;
+wfscr.src = url + '&r=' + Math.random();
+(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+for (var i = 0; i < evts.length; i++) {
+removeEvent(evts[i], logHuman);
+}
+};
+for (var i = 0; i < evts.length; i++) {
+addEvent(evts[i], logHuman);
+}
+#header1 {
+  justify-content: center;
+}
